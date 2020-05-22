@@ -113,6 +113,21 @@ body{
 	width: 335px;
 }
 .srcbutton {
+	margin: 0;
+	padding: 11px 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	border: solid 2px white; border-right:10px;
+	background: black;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+}
+.srcbutton1{
 	margin: 10px;
 	padding: 9px 5px;
 	font-family: Arial, Helvetica, sans-serif;
@@ -126,6 +141,8 @@ body{
 	background: black;
 	border-top-right-radius: 5px 5px;
 	border-bottom-right-radius: 5px 5px;
+        border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
 }
 
 .srcbutton:hover {
@@ -214,7 +231,7 @@ body{
   padding: 0;
   color:black;
   font-weight: bold;
- // font-style: normal;
+  font-style: normal;
 }
 .signup_form {
   background-image: initial;
@@ -248,6 +265,22 @@ body{
   background-color: transparent;
 }
 
+.signupbox1 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color:black;
+  margin-top: 0px;
+  padding: 14px;
+  line-height: 25px;
+  border-radius: 20px;
+  border: 1px solid black;
+  margin-left: 0;
+  width: 270px;
+  height: 20px;
+  background-color:tranparent;
+  opacity:.5;
+}
 .signupbutton {
    background-color: transparent;
     border: 2px solid #FFFFFF;

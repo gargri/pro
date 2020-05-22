@@ -152,12 +152,12 @@ if(isset($_POST['activate'])){
 													</div>
 													<div>
 														<td>
-															<input name="acemail" placeholder="Enter Your Email" required="required" class="email signupbox" type="email" size="30" value="'.$emails.'">
+															<input name="acemail" placeholder="Enter Your Email" required="required" class="email signupbox1" type="email" size="30" value="'.$emails.'">
 														</td>
 													</div>
 													<div>
 														<td>
-															<input name="actcode" placeholder="Activation Code" required="required" class="email signupbox" type="text" size="30" value="'.$acccode.'">
+															<input name="actcode" placeholder="Activation Code" required="required" class="email signupbox1" type="text" size="30" value="'.$acccode.'">
 														</td>
 													</div>
 													<div>
@@ -168,12 +168,12 @@ if(isset($_POST['activate'])){
 												echo '
 										<div>
 											<td>
-												<input name="email" placeholder="Enter Your Email" required="required" class="email signupbox" type="email" size="30" value="'.$emails.'">
+												<input name="email" placeholder="Enter Your Email" required="required" class="email signupbox1" type="email" size="30" value="'.$emails.'">
 											</td>
 										</div>
 										<div>
 											<td>
-												<input name="password" id="password-1" required="required"  placeholder="Enter Password" class="password signupbox " type="password" size="30" value="'.$passs.'">
+												<input name="password" id="password-1" required="required"  placeholder="Enter Password" class="password signupbox1 " type="password" size="30" value="'.$passs.'">
 											</td>
 										</div>
 										<div>

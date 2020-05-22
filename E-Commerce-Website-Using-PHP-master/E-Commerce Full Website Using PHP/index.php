@@ -71,13 +71,13 @@ else {
 		<div class="home-prodlist">
 			<div>
 				 <h3 style="font-style:italic; margin-top:0;color:black;">“Books are a uniquely portable magic.”</h3>
-				 <h2 style="text-align: center; margin-bottom:0;">Books Category</h2> 
+				 <h2 style="text-align: center; margin-bottom:0;">Books Category</h2>
 			</div>
 			<div style="padding: 20px 30px; width: 85%; margin: 0 auto;">
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Novels.php">
-							<img src="./image/product/saree/eng.jpg" class="home-prodlist-imgi">
+							<img src="./image/product/engnieering/eng.jpg" class="home-prodlist-imgi">
 							</a>
 						</div>
 					</li>
@@ -85,7 +85,7 @@ else {
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Mechanical.php">
-							<img src="./image/product/perfume/mech.jpg" class="home-prodlist-imgi">
+							<img src="./image/product/mechanical/mech.jpg" class="home-prodlist-imgi">
 							</a>
 						</div>
 					</li>
@@ -93,42 +93,42 @@ else {
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Electronics.php">
-							<img src="./image/product/hijab/electronics.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/electronics/electronics.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/IT.php">
-							<img src="./image/product/toiletry/it.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/it/it.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Civil.php">
-							<img src="./image/product/footwear/civil.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/civil/civil.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Auto-mobile.php">
-							<img src="./image/product/tshirt/auto.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/auto/auto.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/Electrical.php">
-							<img src="./image/product/watch/electrical.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/Electrical/electrical.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>
 				<ul style="float: left;">
 					<li style="float: left; padding: 25px;">
 						<div class="home-prodlist-img"><a href="book/CS.php">
-							<img src="./image/product/ornament/cs.jpg" class="home-prodlist-imgi"></a>
+							<img src="./image/product/cs/cs.jpg" class="home-prodlist-imgi"></a>
 						</div>
 					</li>
 				</ul>

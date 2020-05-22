@@ -71,7 +71,7 @@ $quan = $_POST['quantity'];
 
 						// send email
 						$msg = "
-						Your Order successfull. Very soon we will send you a verification call.
+						Your Order successfully. Very soon we will send you a verification call.
 
 						";
 						//if (@mail($uemail_db,"eBuyBD Product Order",$msg, "From:eBuyBD <no-reply@ebuybd.xyz>")) {
@@ -215,7 +215,7 @@ $quan = $_POST['quantity'];
 								</div>
 							</form>
 
-						</div>
+						</div>x
 					</div>
 
 					';
@@ -233,7 +233,7 @@ $quan = $_POST['quantity'];
 					echo '
 						<ul style="float: left;">
 							<li style="float: left; padding: 0px 25px 25px 25px;">
-								<div class="home-prodlist-img"><a href="'.$row['category'].'/view_product.php?pid='.$id.'">
+								<div class="home-prodlist-img">
 									<img src="image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi">
 									</a>
 									<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: <span id="amountText">'.$price.'</span>  ₹ <span id="aHiddenText" style="display:none">'.$price.'</span></div>

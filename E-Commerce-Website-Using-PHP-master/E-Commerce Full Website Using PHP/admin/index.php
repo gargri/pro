@@ -54,6 +54,14 @@ $search_value = "";
 					<img style=" height: 75px; width: 130px;" src="../book8.png">
 				</a>
 			</div>
+			<div class="">
+				<div id="srcheader">
+					<form id="newsearch" method="get" action="search.php">
+					        <input type="text" class="srctextinput" name="keywords" size="21" maxlength="120"  placeholder="Search Here..."><input type="submit" value="search" class="srcbutton" >
+					</form>
+				<div class="srcclear"></div>
+				</div>
+			</div>
 		</div>
 		<div class="categolis">
 			<table>
@@ -61,11 +69,11 @@ $search_value = "";
 					<th>
 						<a href="index.php" style="text-decoration: none;color: #fff;padding: 4px 12px;">Home</a>
 					</th>
-					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Product</a></th>
+					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Books</a></th>
 					<th><a href="newadmin.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">New Admin</a></th>
-					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Products</a></th>
+					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Books</a></th>
 					<th><a href="orders.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Orders</a></th>
-				</tr>
+			</tr>
 			</table>
 		</div>
 		<div class="home-welcome">

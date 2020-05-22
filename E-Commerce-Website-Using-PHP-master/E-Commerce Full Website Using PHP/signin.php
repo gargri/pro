@@ -77,7 +77,7 @@ $_POST['last_name'] = trim($_POST['last_name']);
 						$_POST['last_name'] = ucwords($_POST['last_name']);
 						$_POST['email'] = mb_convert_case($u_email, MB_CASE_LOWER, "UTF-8");
 						$_POST['password'] = md5($_POST['password']);
-						$confirmCode   = substr( rand() * 900000 + 100000, 0, 6 );
+						$confirmCode   =0;
 						// send email
 						$msg = "
 						Assalamu Alaikum...
@@ -137,10 +137,10 @@ $_POST['last_name'] = trim($_POST['last_name']);
 		<div class="homepageheader" style="position: inherit;">
 			<div class="signinButton loginButton">
 				<div class="uiloginbutton signinButton loginButton" style="margin-right: 40px;">
-					<a style="text-decoration: none;" href="signin.php">SIGN IN</a>
+					<a style="text-decoration: none; color:white" href="signin.php">SIGN IN</a>
 				</div>
 				<div class="uiloginbutton signinButton loginButton" style="">
-					<a style="text-decoration: none;" href="login.php">LOG IN</a>
+					<a style="text-decoration: none; color:white;;" href="login.php">LOG IN</a>
 				</div>
 			</div>
 			<div style="float: left; margin: 5px 0px 0px 23px;">

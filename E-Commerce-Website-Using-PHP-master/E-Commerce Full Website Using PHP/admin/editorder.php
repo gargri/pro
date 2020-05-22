@@ -76,7 +76,7 @@ $ddate = $_POST['ddate'];
 					//success message
 				header('location: editorder.php?eoid='.$eoid.'');
 				$success_message = '
-				<div class="signupform_content"><h2><font face="bookman">Change successfull!</font></h2>
+				<div class="signupform_content"><h2><font face="bookman">Change successfully!</font></h2>
 				</div>';
 				}
 
@@ -147,10 +147,10 @@ $search_value = "";
 					<th>
 						<a href="index.php" style="text-decoration: none;color: #fff;padding: 4px 12px;">Home</a>
 					</th>
-					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Product</a></th>
+					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Books</a></th>
 					<th><a href="editorder.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">edit</a></th>
 					<th><a href="newadmin.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">New Admin</a></th>
-					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Products</a></th>
+					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Books</a></th>
 					<th><a href="orders.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Orders</a></th>
 				</tr>
 			</table>
@@ -158,7 +158,7 @@ $search_value = "";
 	<div class="holecontainer" style=" padding-top: 20px; padding: 0 20%">
 		<div class="container signupform_content ">
 			<div>
-				<h2 style="padding-bottom: 20px;">Change Delevary Status</h2>
+				<h2 style="padding-bottom: 20px;">Change Delivery Status</h2>
 				<div style="float: right;">
 				<?php
 					echo '
@@ -169,24 +169,24 @@ $search_value = "";
 								<div class="signup_form" style="    margin-top: 38px;">
 									<div>
 										<td>
-											<input name="ddate" placeholder="Delevary date" required="required" class="email signupbox" type="date" size="30" value="'.$eddate.'">
+											<input name="ddate" placeholder="Delivery date" required="required" class="email signupbox" type="date" size="30" value="'.$eddate.'">
 										</td>
 									</div>
 									<div>
-										<td>
-											<select name="dstatus" required="required" style=" font-size: 20px;
-												font-style: italic;margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 4px;border: 1px solid #169E8F;color: #169E8F;margin-left: 0;width: 300px;background-color: transparent;" class="">
-														<option selected value="'.$eodstatus.'">'.$eodustatus.'</option>
-														<option value="No">No</option>
-														<option value="Yes">Yes</option>
-														<option value="Cancel">Cancel</option>
-													</select>
-										</td>
-									</div>
+ 										<td>
+ 											<select name="dstatus" required="required" style=" font-size: 20px;
+ 												font-style: italic;margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 20px;border: 1px solid black;color: black;margin-left: 0;width: 300px;background-color: transparent;" class="">
+ 														<option selected value="'.$eodstatus.'">'.$eodustatus.'</option>
+ 														<option value="No">No</option>
+ 														<option value="Yes">Yes</option>
+ 														<option value="Cancel">Cancel</option>
+ 													</select>
+ 										</td>
+ 									</div>
 									<div>
 										<td>
 											<select name="quantity" required="required" style=" font-size: 20px;
-										font-style: italic; margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 4px;border: 1px solid #169E8F;color: #169E8F;margin-left: 0;width: 300px;background-color: transparent;" class="">
+										font-style: italic; margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 20px;border: 1px solid black;color:black;margin-left: 0;width: 300px;background-color: transparent;" class="">
 										<option selected value="'.$eoquantity.'">Quantity: '.$eoquantity.'</option>';
 				 								?><?php
 												for ($i=1; $i<=$available; $i++) {
