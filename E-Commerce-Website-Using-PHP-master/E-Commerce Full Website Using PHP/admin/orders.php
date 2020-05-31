@@ -21,7 +21,7 @@ $search_value = "";
 <!doctype html>
 <html>
 	<head>
-		<title>Welcome to ebuybd online shop</title>
+		<title>Welcome to Bookbuggs online shop</title>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 	</head>
 	<body class="home-welcome-text" style="background-image: url(../book7.jpg); background-size:cover;">
@@ -68,9 +68,9 @@ $search_value = "";
 					<th>
 						<a href="index.php" style="text-decoration: none;color: #fff;padding: 4px 12px;">Home</a>
 					</th>
-					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Product</a></th>
+					<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Books</a></th>
 					<th><a href="newadmin.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">New Admin</a></th>
-					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Products</a></th>
+					<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Books</a></th>
 					<th><a href="orders.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Orders</a></th>
 				</tr>
 			</table>
@@ -86,7 +86,7 @@ $search_value = "";
 					<th>Mobile</th>
 					<th>Order Status</th>
 					<th>Order Date</th>
-					<th>Delevery Date</th>
+					<th>Delivery Date</th>
 					<th>User Name</th>
 					<th>User Mobile</th>
 					<th>User Email</th>

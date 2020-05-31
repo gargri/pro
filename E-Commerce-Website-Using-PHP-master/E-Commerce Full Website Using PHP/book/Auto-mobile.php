@@ -43,7 +43,7 @@ else {
 	<div style="padding: 30px 120px; font-size: 25px; margin: 0 auto; display: table; width: 98%;">
 		<div>
 		<?php
-			$getposts = mysqli_query($link,"SELECT * FROM products WHERE available >='1' AND item ='perfume'  ORDER BY id DESC LIMIT 10") or die(mysql_error());
+			$getposts = mysqli_query($link,"SELECT * FROM products WHERE available >='1' AND item ='Auto-mobile'  ORDER BY id DESC LIMIT 10") or die(mysql_error());
 					if (mysqli_num_rows($getposts)) {
 					echo '<ul id="recs">';
 					while ($row = mysqli_fetch_assoc($getposts)) {
@@ -57,7 +57,7 @@ else {
 							<ul style="float: left;">
 								<li style="float: left; padding: 0px 25px 25px 25px;">
 									<div class="home-prodlist-img"><a href="view_product.php?pid='.$id.'">
-										<img src="../image/product/'.$picture.'" class="home-prodlist-imgi">
+										<img src="../image/product/Auto-mobile/'.$picture.'" class="home-prodlist-imgi">
 										</a>
 										<div style="text-align: center; padding: 0 0 6px 0;"> <span style="font-size: 15px;">'.$pName.'</span><br> Price: '.$price.' ₹</div>
 									</div>

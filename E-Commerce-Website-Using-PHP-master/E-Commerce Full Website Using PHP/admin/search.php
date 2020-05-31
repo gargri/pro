@@ -95,7 +95,7 @@ $search_value = trim($_GET['keywords']);
 					<th>Description</th>
 					<th>Price</th>
 					<th>Available</th>
-
+          <th>Item</th>
 					<th>P Code</th>
 					<th>Edit</th>
 				</tr>
@@ -112,7 +112,7 @@ $search_value = trim($_GET['keywords']);
 						$descri = $row['description'];
 						$price = $row['price'];
 						$available = $row['available'];
-
+            $item = $row['item'];
 						$pCode = $row['pCode'];
 						$picture = $row['picture'];
 
@@ -122,10 +122,10 @@ $search_value = trim($_GET['keywords']);
 					<th><?php echo $descri; ?></th>
 					<th><?php echo $price; ?></th>
 					<th><?php echo $available; ?></th>
-
+          <th><?php echo $item; ?></th>
 					<th><?php echo $pCode; ?></th>
 					<th><?php echo '<div class="home-prodlist-img"><a href="editproduct.php?epid='.$id.'">
-									<img src="../image/product/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
+									<img src="../image/product/'.$item.'/'.$picture.'" class="home-prodlist-imgi" style="height: 75px; width: 75px;">
 									</a>
 								</div>' ?></th>
 				</tr>

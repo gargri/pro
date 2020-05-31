@@ -218,10 +218,10 @@ $search_value = "";
 											<select name="item" required="required" style=" font-size: 20px;
 										font-style: italic;margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 20px;border: 1px solid black;color: black;margin-left: 0;width: 300px;background-color: transparent;" class="">
 											<!--	<option selected value="'.$item.'">'.$itemu.'</option> -->
-												<option value="engineering">Novels</option>
-												<option value="cs">CS</option>
+												<option value="Novels">Novels</option>
+												<option value="Computer">Computer</option>
 												<option value="electrical">ELECTRICAL</option>
-												<option value="automobile">AUTOMOBILE</option>
+												<option value="auto-mobile">AUTOMOBILE</option>
 												<option value="electronics">ELECTRONICS</option>
 												<option value="mechanical">MECHANICAL</option>
 												<option value="civil">CIVIL</option>

@@ -124,9 +124,9 @@ $search_value = "";
 						<th>
 							<a href="index.php" style="text-decoration: none;color: #fff;padding: 4px 12px;">Home</a>
 						</th>
-						<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Product</a></th>
+						<th><a href="addproduct.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Add Books</a></th>
 						<th><a href="newadmin.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">New Admin</a></th>
-						<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Products</a></th>
+						<th><a href="allproducts.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">All Books</a></th>
 						<th><a href="orders.php" style="text-decoration: none;color: #ddd;padding: 4px 12px;">Orders</a></th>
 				</tr>
 			</table>
@@ -140,7 +140,7 @@ $search_value = "";
 							<div>
 								<div>
 									<div class="signupform_content">
-										<h2>Add Product Form!</h2>
+										<h2>Book Form!</h2>
 										<div class="signup_error_msg">';
 											if (isset($error_message)) {echo $error_message;}
 										echo '</div>
@@ -150,7 +150,7 @@ $search_value = "";
 												<div class="signup_form">
 													<div >
 														<td >
-															<input name="pname" id="first_name" placeholder="Product Name" required="required" class="first_name signupbox" type="text" size="30" value="'.$pname.'" style="color:black;">
+															<input name="pname" id="first_name" placeholder="Book Name" required="required" class="first_name signupbox" type="text" size="30" value="'.$pname.'" style="color:black;">
 														</td>
 													</div>
 													<div>
@@ -173,14 +173,14 @@ $search_value = "";
 														<td>
 															<select name="item" required="required" style=" font-size: 20px;
 														font-style: italic;margin-bottom: 3px;margin-top: 0px;padding: 14px;line-height: 25px;border-radius: 20px;border: 1px solid black;color: black;margin-left: 0;width: 300px;background-color: transparent;" class="">
-																<option selected value="saree">Novels</option>
-																<option value="ornament">CS</option>
-																<option value="watch">Electrical</option>
-																<option value="tshirt">Mechanical</option>
-																<option value="hijab">Electronics</option>
-																<option value="perfume">Auto-mobile</option>
-																<option value="footwear">Civil</option>
-																<option value="toiletry">IT</option>
+																<option selected value="Novels">Novels</option>
+																<option value="Computer">Computer</option>
+																<option value="Electrical">Electrical</option>
+																<option value="Mechanical">Mechanical</option>
+																<option value="Electronics">Electronics</option>
+																<option value="Auto">Auto-mobile</option>
+																<option value="Civil">Civil</option>
+																<option value="IT">IT</option>
 															</select>
 														</td>
 													</div>
@@ -195,7 +195,7 @@ $search_value = "";
 														</td>
 													</div>
 													<div>
-														<input name="signup" class="uisignupbutton signupbutton" type="submit" value="Add Product">
+														<input name="signup" class="uisignupbutton signupbutton" type="submit" value="Add Book">
 													</div>
 												</div>
 											</form>

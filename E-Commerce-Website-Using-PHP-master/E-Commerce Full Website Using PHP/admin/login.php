@@ -73,12 +73,12 @@ $search_value = "";
 									<div class="signup_form">
 										<div>
 											<td  style="color:black;">
-												<input name="email" placeholder="Enter Your Email" required="required" class="email signupbox" type="email" size="30" value="">
+												<input name="email" placeholder="Enter Your Email" required="required" class="email signupbox1" type="email" size="30" value="">
 											</td>
 										</div>
 										<div>
 											<td>
-												<input name="password" id="password-1" required="required"  placeholder="Enter Password" class="password signupbox " type="password" size="30" value="">
+												<input name="password" id="password-1" required="required"  placeholder="Enter Password" class="password signupbox1 " type="password" size="30" value="">
 											</td>
 										</div>
 										<div>
